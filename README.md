@@ -2,7 +2,7 @@
 Code for my 16-264 project--mostly used to research a classification task.
 
 **Project Flow:**  
-0\) Download files from VoxCeleb1 dataset (link below)  
+0\) Download files from VoxCeleb1 dataset and senet50-ferplus-logits.mat from Emotion Recognition paper (links below)  
 1\) Run getImagesAndTags.m  
 2\) Choose sample and run makefile.m (or alternative makefileCSV.m)
 
@@ -15,6 +15,7 @@ If makefileCSV.m was run:
 
 Many resources were used:  
 Vox Celeb Data Set <http://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox1.html>  
-Crossmodal Biometric Matching <http://www.robots.ox.ac.uk/~vgg/research/cross-modal-emotions/>  
+Emotion Recognition in Speech using Cross-Modal Transfer in the Wild <http://www.robots.ox.ac.uk/~vgg/research/cross-modal-emotions/>  
+senet50-ferplus-logits.mat (from paper above) <http://www.robots.ox.ac.uk/~albanie/data/cross-modal-emotions/senet50-ferplus-logits.mat>  
 How to apply machine learning and deep learning methods to audio analysis <https://towardsdatascience.com/how-to-apply-machine-learning-and-deep-learning-methods-to-audio-analysis-615e286fcbbc>  
 Urban Sound Classification using Convolutional Neural Networks with Keras: Theory and Implementation <https://medium.com/gradientcrescent/urban-sound-classification-using-convolutional-neural-networks-with-keras-theory-and-486e92785df4>
